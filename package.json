@@ -6,7 +6,8 @@
   "scripts": {
     "tests:chrome": "npx playwright test --config=playwright.config.ts --project=Chromium",
     "tests:firefox": "npx playwright test --config=playwright.config.ts --project=Firefox",
-    "tests:webkit": "npx playwright test --config=playwright.config.ts --project=WebKit"
+    "tests:webkit": "npx playwright test --config=playwright.config.ts --project=WebKit",
+    "tests:api": "npx playwright test --config=api.config.ts --project=Chromium"
   },
   "author": "tparashchenko",
   "license": "ISC",
