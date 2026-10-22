@@ -1,6 +1,5 @@
 import { test, expect } from '@playwright/test'
-import { loadHomePage, assertTitle } from '../helpers'
-
+import { loadHomePage, assertTitle } from '../../helpers'
 
 
 test.describe('My suite', () => {
